@@ -1,0 +1,119 @@
+div{
+    margin:0;
+    padding:0;
+    position:relative;
+}
+div div{
+    background:rgba(131, 216, 27, 0.57);
+}
+.Android{
+    width:400px;
+    height:500px;
+}
+.head{
+    width:220px;
+    height:108px;
+    margin:100px auto 0;
+    border-radius:150px 150px 0 0;
+}
+.head:hover{
+    transform:rotate(-8deg);
+}
+.l-eye, .r-eye{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#fff;
+    position:absolute;
+    top:45px;
+}
+.l-eye{
+    left:40px;
+}
+.r-eye{
+    right:40px;
+}
+.l-ant, .r-ant{
+    width:6px;
+    height:35px;
+    position:absolute;
+    top:-17px;
+}
+.l-ant{
+    left:40px;
+    transform:rotate(-30deg);
+}
+
+.r-ant{
+    right:40px;
+    transform:rotate(30deg);
+}
+.body{
+    width:220px;
+    height:200px;
+    margin:10px auto;
+    border-radius:0 0 30px 30px;
+}
+.l-arm, .r-arm{
+    width:45px;
+    height:150px;
+    border-radius:30px;
+    position:absolute;
+    
+}
+.l-arm{
+    left:-50px;
+}
+.l-arm:hover{
+    transform:rotate(10deg);
+}
+.r-arm{
+    right:-50px;
+}
+.r-arm:hover{
+    transform:rotate(-10deg);
+}
+
+.l-leg, .r-leg{
+    width:45px;
+    height:100px;
+    border-radius:0 0 20px 20px;
+    position:absolute;
+    bottom:-100px;
+}
+.l-leg{
+    left:40px;
+}
+.r-leg{
+    right:40px;
+}
+.skb{
+    background:#fff;
+    width:220px;
+    height:200px;
+    margin:10px auto;
+}
+.board{
+    background:#000;
+    width:220px;
+    height:30px;
+    margin:108px auto;
+    border-radius:30px;
+}
+.skb:hover{
+    transform:rotate(-10deg);
+}
+.l-wheel, .r-wheel{
+    width:30px;
+    height:30px;
+    background: #000;
+    border-radius:100%;
+    position:absolute;
+    top:34px;
+}
+.l-wheel{
+    left:20px;
+}
+.r-wheel{
+    right:20px;
+}
